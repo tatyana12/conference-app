@@ -1,0 +1,31 @@
+body {
+  margin: 2em;
+}
+
+h2 {
+  color: red;
+  font-style: italic;
+}
+
+body, input[text], button {
+  color: #880000;
+}
+
+button.clear {
+  background-color: lightblue;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  cursor: hand;
+  margin-bottom: 15px;
+  color: blue;
+}
+button:hover {
+  background-color: #d3d3d3;
+}
+button:disabled {
+  background-color: #eee;
+  color: white;
+  cursor: auto;
+}

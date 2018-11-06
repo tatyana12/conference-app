@@ -1,0 +1,13 @@
+<div *ngIf="event" [ngStyle]="{'background-color': setColor()}">
+    <h2>{{ event.name }} Details</h2>
+    <div>ID: {{event.id}}</div>
+    <div>
+    <label for="ename">Name: </label>
+    <input [(ngModel)]="event.name" placeholder="event name" size="30" maxlength="50" id="ename">
+    </div>
+    <div>Flag: {{event.flag}}</div>
+    <div>Summary: {{event.summary}}</div>
+    <div>Room: {{event.room}}</div>
+    <div>Presenter: {{event.presenter}}</div>
+    <div><button (click)="goBack()">BACK</button></div>
+</div>

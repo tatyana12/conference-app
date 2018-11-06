@@ -1,0 +1,47 @@
+.events {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 20em;
+}
+.events li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #ddd;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 5px;
+}
+.events li:hover {
+  color: #6f9e9c;
+  background-color: lightgreen;
+  left: .1em;
+}
+.events a {
+  color: #6c6c6c;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  width: 255px;
+}
+.events a:hover {
+  color:blue;
+}
+
+.events .eventid {
+  display: inline-block;
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #aabbff;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 5px 0 0 5px;
+}
