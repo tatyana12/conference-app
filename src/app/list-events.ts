@@ -1,7 +1,7 @@
 import { Event } from './event';
 
 export const EventsList: Event[] = [
-    { id: 10, name: 'Mikl', flag: 'S', summary: 'Vologda', room: '1975', presenter: 'population' },
+    { id: 10, name: 'Mikl', flag: 'S', summary: 'Vologda', room: '1975', presenter: '240,000' },
     { id: 11, name: 'Diana', flag: 'S', summary: 'This seminar is about stock investing', room: 'S100', presenter: 'Warren Buffett' },
     { id: 12, name: 'Dennis', flag: 'S', summary: 'This seminar is about investing in crypto currency', room: 'S100', presenter: 'Goldman Sachs'},
     { id: 13, name: 'Natali', flag: 'S', summary: 'This seminar is about investing in commodity', room: 'S100', presenter: 'Fidelity'},
