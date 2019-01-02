@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "conference-app": {
+    "family-app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "conference-app"
+  "defaultProject": "family-app"
 }
