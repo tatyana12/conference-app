@@ -32,7 +32,7 @@ export class EventDetailComponent implements OnInit {
   }
 
   setColor() {
-      return this.event.flag === 'S' ? 'orange' : 'lightgreen';
+      return this.event.flag === 'Orange' ? 'orange' : 'lightgreen';
   }
 
 }
